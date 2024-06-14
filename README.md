@@ -24,6 +24,7 @@ scikit-learn>=0.22
 scikit-image>=0.16
 numpy
 pandas
+scipy
 rdkit
 chmpy
 plyfile
