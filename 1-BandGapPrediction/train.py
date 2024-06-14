@@ -27,7 +27,7 @@ def main():
     early_stopping = EarlyStopping(
         monitor='val_mae',   
         mode = 'min',
-        patience=100,           
+        patience=50,           
         restore_best_weights=True 
     )
     reduce_lr = ReduceLROnPlateau(monitor='val_mae', factor=0.8,
