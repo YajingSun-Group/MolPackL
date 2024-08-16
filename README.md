@@ -4,6 +4,8 @@
 
 We constructed an innovative algorithm framework, Molecular Packing Learning (MolPackL), which can accurately quantify elusive IMIs using contact density histograms (CDHs) and efficiently extract intermolecular features for further properties pre-diction of organic solids. It performs satisficing results in training predictive models of six IMIs-related properties in molecular crystals.
 
+The 0-DataPreprocess contains methods for generating isosurfaces and CDHs.
+
 ## Installation
 
 ```sh
